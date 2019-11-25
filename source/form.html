@@ -28,7 +28,100 @@
     </header>
 
     <main class="page-main">
+      <section class="choose-program">
+        <h1 class="choose-program__title">Подбор программы</h1>
+        <p class="choose-program__subtitle">Заполните анкету и мы подберем
+        программу питания для вашего кота</p>
+        <form class="choose-program__form form" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="form__base-info base-info">
+            <legend class="visually-hidden">
+              <h2>Основные данные</h2>
+            </legend>
+            <ul class="base-info__list info-base">
+              <li class="info-base__item">
+                <label for="info-base__name-id">Имя:*</label>
+                <input class="info-base__name" type="text" id="info-base__name-id" name="name" placeholder="Барсик">
+              </li>
+              <li class="info-base__item">
+                <label for="info-base__weight-id">Вес (кг):*</label>
+                <input class="info-base__weight" type="text" id="info-base__weight-id" name="weight" placeholder="7">
+              </li>
+              <li class="info-base__item">
+                <label for="info-info__age-id">Возраст (лет):</label>
+                <input class="info-base__age" type="text" id="info-base__age-id" name="age" placeholder="7"></li>
+              </ul>
+          </fieldset>
 
+          <fieldset class="form__courses courses">
+            <legend class="visually-hidden">
+              <h2>Выбор программы</h2>
+            </legend>
+            <ul class="courses__list courses">
+              <li class="courses__item">
+                <input class="courses__radio" type="radio" id="courses__weight-loss-id" name="course" value="weight-loss" checked>
+                <label for="courses__weight-loss-id">Похудение</label>
+              </li>
+              <li class="courses__item">
+                <input class="courses__radio" type="radio" id="courses__weight-gain-id" name="course" value="weight-gain">
+                <label for="courses__weight-gain-id">Набор массы</label>
+              </li>
+              <li class="courses__item">
+                <input class="courses__radio" type="radio" id="courses__need-advise-id" name="course" value="need advise">
+                <label for="courses__need-advise-id">Не знаю (Нужен ваш совет)</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__owner-info owner-info">
+            <legend class="owner-info__legend">
+              <h2>Контактные данные
+              (владельца кота)</h2>
+            </legend>
+            <ul class="owner-info__list info-owner">
+              <li class="info-owner__item">
+                <label for="info-owner__email-id">E-mail:*</label>
+                <input class="info-owner__email" type="email" id="info-owner__email-id" name="owner-email" placeholder="kuklachev@gmail.com">
+              </li>
+              <li class="info-owner__item">
+                <label for="info-owner__phone-id">Телефон:*</label>
+                <input class="info-owner__phone" type="tel" id="info-owner__phone-id" name="owner-phone" placeholder="8 (960) 900-60-90" pattern="[0-9]{1} \([0-9]{3}\) [0-9]{3}-[0-9]{2}-[0-9]{2}">
+              </li>
+            </ul>
+          </fieldset>
+
+          <div class="form__comment comment">
+            <h2 class="comment__title">Комментарий</h2>
+            <textarea class="comment__textarea" name="comment" rows="5" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
+
+          <fieldset class="form__extra extra">
+            <legend class="extra__legend">
+              <h2>Дополнительно</h2>
+            </legend>
+            <ul class="extra__list additionally">
+              <li class="additionally__item">
+                <input class="additionally__checkbox" id="additionally-sugar-id" type="checkbox" name="additionally" value="sugar" checked>
+                <label for="additionally-sugar-id">Сахарозаменитель</label>
+              </li>
+              <li class="additionally__item">
+                <input class="additionally__checkbox" id="additionally-water-id" type="checkbox" name="additionally" value="water">
+                <label for="additionally-water-id">Питьевая вода</label>
+              </li>
+              <li class="additionally__item">
+                <input class="additionally__checkbox" id="additionally-milk-id" type="checkbox" name="additionally" value="milk">
+                <label for="additionally-milk-id">Молоко</label>
+              </li>
+              <li class="additionally__item">
+                <input class="additionally__checkbox" id="additionally-vitamin-id" type="checkbox" name="additionally" value="vitamin">
+                <label for="additionally-vitamin-id">Витамины</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="form__btn btn" type="submit">Отправить заявку</button>
+          <span class="form__required">* — Обязательные поля</span>
+        </form>
+
+      </section>
     </main>
 
     <footer class="page-footer">

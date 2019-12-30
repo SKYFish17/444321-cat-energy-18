@@ -1,6 +1,27 @@
 .program {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  color: $white;
   background-image: url(../../img/index-background-mobile@1x.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-color:#63a73a;
+}
+
+.program__title {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.program__subtitle {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.program__link {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $white;
 }

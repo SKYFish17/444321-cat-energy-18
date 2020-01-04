@@ -1,4 +1,7 @@
 .program {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 22px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: normal;
   line-height: 1;
@@ -9,12 +12,15 @@
   background-repeat: no-repeat;
   background-color:#63a73a;
   // временно
+  min-height: 480px;
   outline: 2px dashed magenta;
   outline-offset: -2px;
   // временно
 }
 
 .program__title {
+  margin-top: 0px;
+  padding-top: 29px;
   font-size: 36px;
   font-weight: normal;
 }

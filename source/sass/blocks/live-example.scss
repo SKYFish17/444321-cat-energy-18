@@ -1,12 +1,16 @@
 .live-example {
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: $grey;
   // временно
+  min-height: 705px;
   outline: 2px dashed darkviolet;
   outline-offset: -2px;
   // временно
 }
 
 .live-example__title {
+  margin-top: 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: normal;

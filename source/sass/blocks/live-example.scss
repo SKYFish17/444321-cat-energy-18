@@ -1,5 +1,9 @@
 .live-example {
   background-color: $grey;
+  // временно
+  outline: 2px dashed darkviolet;
+  outline-offset: -2px;
+  // временно
 }
 
 .live-example__title {

@@ -6,4 +6,7 @@
   text-align: center;
   text-transform: uppercase;
   color: $black;
+  outline: 2px dashed #ffee00;// временно
+  outline-offset: -2px;
+  background-color: lightyellow;
 }

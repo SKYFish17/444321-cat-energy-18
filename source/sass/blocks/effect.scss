@@ -1,3 +1,10 @@
+.effect {
+  // временно
+  outline: 2px dashed lime;
+  outline-offset: -2px;
+  // временно
+}
+
 .effect__item {
   background-color: $grey;
 }

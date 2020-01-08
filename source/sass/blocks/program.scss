@@ -26,12 +26,21 @@
 }
 
 .program__subtitle {
+  display: block;
+  margin-bottom: 29px;
   font-size: 14px;
   text-transform: uppercase;
 }
 
+.program__image {
+  margin-bottom: 3px;
+}
+
 .program__link {
+  padding-top: 11px;
+  padding-bottom: 11px;
   font-size: 14px;
+  line-height: 1.29;
   text-transform: uppercase;
   color: $white;
 }

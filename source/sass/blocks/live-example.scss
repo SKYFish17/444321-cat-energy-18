@@ -1,9 +1,10 @@
 .live-example {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 18px;
   background-color: $grey;
   // временно
-  min-height: 705px;
+  min-height: 685px;
   outline: 2px dashed darkviolet;
   outline-offset: -2px;
   // временно
@@ -11,6 +12,7 @@
 
 .live-example__title {
   margin-top: 0;
+  margin-bottom: 23px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: normal;
@@ -18,8 +20,15 @@
   color: $black;
 }
 
+.live-example__text {
+  margin-bottom: 44px;
+}
+
 .live-example__desc {
   font-family: "Arial", sans-serif;
+  @include indent-reset;
+  margin-bottom: 27px;
+  padding-right: 5px;
 }
 
 .live-example__price {

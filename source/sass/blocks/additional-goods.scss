@@ -1,0 +1,19 @@
+.additional-goods {
+  padding-top: 31px;
+  padding-bottom: 35px;
+}
+
+.additional-goods__title {
+  margin: 0;
+  margin-bottom: 31px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: $black;
+}
+
+.additional-goods__list {
+  list-style: none;
+  @include indent-reset;
+}

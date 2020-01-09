@@ -1,8 +1,4 @@
 .contact-us {
-  background-image: url(../../img/bg-map-mobile@1x.png);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-color: #fdf7ef;
   // временно
   outline: 2px dashed forestgreen;
   outline-offset: -2px;
@@ -14,6 +10,13 @@
   padding-right: 20px;
   padding-bottom: 26px;
   padding-left: 20px;
+}
+
+.contact-us__map {
+  background-image: url(../../img/bg-map-mobile@1x.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-color: #fdf7ef;
 }
 
 .contact-us__invite {

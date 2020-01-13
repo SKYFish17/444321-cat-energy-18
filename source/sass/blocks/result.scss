@@ -1,5 +1,6 @@
 .result {
   list-style-type: none;
+
   @include indent-reset;
   margin-bottom: 18px;
 }

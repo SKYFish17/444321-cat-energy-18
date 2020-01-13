@@ -7,10 +7,10 @@
   line-height: 1;
   text-align: center;
   color: $white;
-  background-image: url(../../img/index-background-mobile@1x.jpg);
+  background-image: url("../../img/index-background-mobile@1x.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-color:#63a73a;
+  background-color: #63a73a;
   // временно
   min-height: 480px;
   outline: 2px dashed magenta;
@@ -19,7 +19,7 @@
 }
 
 .program__title {
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 29px;
   font-size: 36px;
   font-weight: normal;

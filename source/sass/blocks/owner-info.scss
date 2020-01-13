@@ -2,4 +2,16 @@
   //временно
   outline: 2px dashed rgb(60, 255, 0);
   //временно
+  @include indent-reset;
+  margin-bottom: 31px;
+}
+
+.owner-info__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: $black;
 }

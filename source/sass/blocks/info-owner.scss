@@ -1,0 +1,46 @@
+.info-owner {
+  @include indent-reset;
+  list-style: none;
+}
+
+.info-owner__item label {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.13;
+  color: $black-two;
+}
+
+.info-owner__email,
+.info-owner__phone {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+}
+
+.info-owner__email {
+  width: 219px;
+  margin-bottom: 14px;
+}
+
+.info-owner__email::placeholder {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.13;
+  color: $black-three;
+}
+
+.info-owner__phone {
+  width: 204px;
+}
+
+.info-owner__phone::placeholder {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.13;
+  color: $black-three;
+}
+

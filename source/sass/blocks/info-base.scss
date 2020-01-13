@@ -1,0 +1,52 @@
+.info-base {
+  @include indent-reset;
+  list-style: none;
+}
+
+.info-base__item label {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.13;
+  color: $black-two;
+}
+
+.info-base__name,
+.info-base__weight,
+.info-base__age {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+}
+
+.info-base__name {
+  width: 229px;
+  margin-bottom: 14px;
+}
+
+.info-base__weight {
+  width: 204px;
+  margin-bottom: 14px;
+}
+
+.info-base__age {
+  width: 172px;
+}
+
+.info-base__item input {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.13;
+  color: $black-three;
+}
+
+.info-base__item input::placeholder {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.13;
+  color: $black-three;
+}

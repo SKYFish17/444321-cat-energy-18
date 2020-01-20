@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin font-oswald($fs: 14px, $lh: 1.29) {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+}

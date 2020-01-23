@@ -8,18 +8,15 @@
 .choose-program__title {
   margin: 0;
   margin-bottom: 24px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 36px;
+  @include font-oswald(36px, 1.67);
   font-weight: normal;
-  line-height: 1.67;
   color: $black;
 }
 
 .choose-program__subtitle {
   margin-bottom: 39px;
   width: 250px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 14px;
+  @include font-oswald(14px);
   text-transform: uppercase;
   color: $black;
 }

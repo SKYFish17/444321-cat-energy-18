@@ -7,18 +7,14 @@
 
 .result__header {
   display: block;
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
-  line-height: 1;
+  @include font-arial(12px, 1);
   text-align: center;
   color: $black-three;
 }
 
 .result__value {
   display: block;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 24px;
-  line-height: 1;
+  @include font-oswald(24px, 1);
   text-align: center;
   text-transform: uppercase;
   color: $black;

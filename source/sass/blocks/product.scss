@@ -11,18 +11,14 @@
   margin: 0;
   margin-bottom: 18px;
   width: 90px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
+  @include font-oswald(16px, 1.25);
   font-weight: normal;
-  line-height: 1.25;
   text-transform: uppercase;
   color: $black;
 }
 
 .product__features {
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
-  line-height: 1.33;
+  @include font-arial(12px, 1.33);
   color: $black-three;
 }
 
@@ -42,9 +38,7 @@
 .product--show-all .product__desc {
   display: block;
   margin-bottom: 22px;
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
-  line-height: 1.33;
+  @include font-arial(12px, 1.33);
   text-align: center;
 }
 

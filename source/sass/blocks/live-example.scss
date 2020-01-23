@@ -13,10 +13,8 @@
 .live-example__title {
   margin-top: 0;
   margin-bottom: 23px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 36px;
+  @include font-oswald(36px, 1.67);
   font-weight: normal;
-  line-height: 1.67;
   color: $black;
 }
 
@@ -25,17 +23,14 @@
 }
 
 .live-example__desc {
-  font-family: "Arial", sans-serif;
-
+  @include font-arial();
   @include indent-reset;
   margin-bottom: 27px;
   padding-right: 5px;
 }
 
 .live-example__price {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 1.43;
+  @include font-oswald(14px, 1.43);
   text-align: center;
   text-transform: uppercase;
   color: $black;

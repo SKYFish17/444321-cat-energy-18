@@ -12,10 +12,8 @@
 .how-it-works__title {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 36px;
+  @include font-oswald(36px, 1.67);
   font-weight: normal;
-  line-height: 1.67;
   color: $black;
 }
 
@@ -34,6 +32,5 @@
 }
 
 .how-it-works__desc {
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
+  @include font-arial();
 }

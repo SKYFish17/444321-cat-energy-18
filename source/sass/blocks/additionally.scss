@@ -13,9 +13,7 @@
 }
 
 .additionally__item label {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
+  @include font-oswald(16px, 1.13);
   text-transform: uppercase;
-  line-height: 1.13;
   color: $black-two;
 }

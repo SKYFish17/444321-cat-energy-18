@@ -8,15 +8,12 @@
 .additional-goods__title {
   margin: 0;
   margin-bottom: 31px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 24px;
+  @include font-oswald(24px, 1);
   font-weight: normal;
-  line-height: 1;
   color: $black;
 }
 
 .additional-goods__list {
   list-style: none;
-
   @include indent-reset;
 }

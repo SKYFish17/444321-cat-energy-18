@@ -5,19 +5,16 @@
 
 .additional-item__title {
   margin-bottom: 15px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
+  @include font-oswald(16px, 1);
   text-transform: uppercase;
   font-weight: normal;
-  line-height: 1;
   color: $black-two;
 }
 
 .additional-item__feature {
   @include indent-reset;
   margin-bottom: 14px;
-  font-family: "Arial", sans-serif;
-  line-height: 1;
+  @include font-arial(14px, 1);
   color: $black-three;
 }
 

@@ -31,10 +31,8 @@
   margin-bottom: 30px;
   padding-left: 71px;
   padding-right: 16px;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 24px;
+  @include font-oswald(24px, 1.54);
   font-weight: normal;
-  line-height: 1.54;
   text-transform: uppercase;
   color: $black;
 }
@@ -42,15 +40,12 @@
 .effect__desc {
   margin: 0;
   margin-bottom: 42px;
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
+  @include font-arial();
 }
 
 
 .effect__link {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1;
+  @include font-oswald(16px, 1);
   text-transform: uppercase;
   color: $black;
 }

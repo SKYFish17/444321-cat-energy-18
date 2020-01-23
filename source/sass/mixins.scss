@@ -8,3 +8,9 @@
   font-size: $fs;
   line-height: $lh;
 }
+
+@mixin font-arial($fs: 14px, $lh: 1.29) {
+  font-family: "Arial", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+}

@@ -1,0 +1,13 @@
+.control__before-btn {
+  @include font-oswald(16px, 1.25);
+  text-align: left;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.control__after-btn {
+  @include font-oswald(16px, 1.25);
+  text-align: right;
+  text-transform: uppercase;
+  color: $black;
+}

@@ -9,11 +9,20 @@
   color: $black-two;
 }
 
+/*Если у полей одинаковые стили, имеет смысл задать одинаковый класс или сделать миксин вместо этого списка. Проработать после поиска названий миксинов*/
 .info-base__name,
 .info-base__weight,
 .info-base__age {
   box-sizing: border-box;
-  padding: 15px 16px 15px 16px
+  padding: 15px 16px 15px 16px;
+  @include font-oswald(16px, 1.13);
+  text-transform: uppercase;
+  color: $black-three;
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    text-transform: uppercase;
+    color: $black-three;
+  }
 }
 
 .info-base__name {
@@ -28,15 +37,4 @@
 
 .info-base__age {
   width: 172px;
-}
-
-.info-base__item input {
-  @include font-oswald(16px, 1.13);
-  text-transform: uppercase;
-  color: $black-three;
-  &::placeholder {
-    @include font-oswald(16px, 1.13);
-    text-transform: uppercase;
-    color: $black-three;
-  }
 }

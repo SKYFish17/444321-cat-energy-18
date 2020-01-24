@@ -4,10 +4,11 @@
   box-sizing: border-box;
   @include font-oswald(16px, 1.25);
   text-transform: uppercase;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
+  border: none;
   color: $white;
+}
+
+.button--show-all {
+  color: $black-three;
+  background-color: $grey;
 }

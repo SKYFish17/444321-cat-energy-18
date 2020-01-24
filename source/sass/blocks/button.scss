@@ -1,9 +1,6 @@
 .button {
   display: block;
-  padding-top: 13px;
-  padding-right: 53px;
-  padding-bottom: 12px;
-  padding-left: 55px;
+  padding: 13px 53px 12px 55px;
   box-sizing: border-box;
   @include font-oswald(16px, 1.25);
   text-transform: uppercase;

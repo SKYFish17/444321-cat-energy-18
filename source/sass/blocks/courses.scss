@@ -20,10 +20,9 @@
 
 .courses__item {
   margin-bottom: 13px;
-}
-
-.courses__item:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .courses__radio {

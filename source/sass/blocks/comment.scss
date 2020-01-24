@@ -6,7 +6,6 @@
 }
 
 .comment__title {
-  margin: 0;
   margin-bottom: 31px;
   @include font-oswald(24px, 1);
   font-weight: normal;
@@ -15,19 +14,15 @@
 
 .comment__textarea {
   box-sizing: border-box;
-  padding-top: 15px;
-  padding-right: 13px;
-  padding-bottom: 15px;
-  padding-left: 13px;
+  padding: 15px 13px 15px 13px;
   width: 100%;
   height: 150px;
   @include font-oswald(16px, 1.13);
   text-transform: uppercase;
   color: $black-three;
-}
-
-.comment__textarea::placeholder {
-  @include font-oswald(16px, 1.13);
-  text-transform: uppercase;
-  color: $black-three;
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    text-transform: uppercase;
+    color: $black-three;
+  }
 }

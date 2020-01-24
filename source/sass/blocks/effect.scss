@@ -15,19 +15,15 @@
 }
 
 .effect__item {
-  padding-top: 30px;
-  padding-right: 34px;
-  padding-bottom: 19px;
-  padding-left: 21px;
+  padding: 30px 34px 19px 21px;
   background-color: $grey;
-}
-
-.effect__item:first-child {
-  margin-bottom: 20px;
+  &:first-child {
+    margin-bottom: 20px;
+  }
 }
 
 .effect__title {
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 30px;
   padding-left: 71px;
   padding-right: 16px;

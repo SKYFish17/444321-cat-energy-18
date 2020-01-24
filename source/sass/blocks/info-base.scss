@@ -13,10 +13,7 @@
 .info-base__weight,
 .info-base__age {
   box-sizing: border-box;
-  padding-top: 15px;
-  padding-right: 16px;
-  padding-bottom: 15px;
-  padding-left: 16px;
+  padding: 15px 16px 15px 16px
 }
 
 .info-base__name {
@@ -37,10 +34,9 @@
   @include font-oswald(16px, 1.13);
   text-transform: uppercase;
   color: $black-three;
-}
-
-.info-base__item input::placeholder {
-  @include font-oswald(16px, 1.13);
-  text-transform: uppercase;
-  color: $black-three;
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    text-transform: uppercase;
+    color: $black-three;
+  }
 }

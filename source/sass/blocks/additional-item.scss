@@ -1,9 +1,10 @@
 .additional-item {
-  padding-top: 14px;
+  padding-top: 14px ;
   padding-bottom: 17px;
 }
 
 .additional-item__title {
+  margin-top: 16px ;
   margin-bottom: 15px;
   @include font-oswald(16px, 1);
   text-transform: uppercase;

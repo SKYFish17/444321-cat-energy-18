@@ -12,28 +12,23 @@
 .info-owner__email,
 .info-owner__phone {
   box-sizing: border-box;
-  padding-top: 15px;
-  padding-right: 16px;
-  padding-bottom: 14px;
-  padding-left: 16px;
+  padding: 15px 16px 14px 16px
 }
 
 .info-owner__email {
   width: 219px;
   margin-bottom: 14px;
-}
-
-.info-owner__email::placeholder {
-  @include font-oswald(16px, 1.13);
-  text-transform: uppercase;
-  color: $black-three;
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    text-transform: uppercase;
+    color: $black-three;
+  }
 }
 
 .info-owner__phone {
   width: 204px;
-}
-
-.info-owner__phone::placeholder {
-  @include font-oswald(16px, 1.13);
-  color: $black-three;
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    color: $black-three;
+  }
 }

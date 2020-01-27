@@ -9,14 +9,14 @@
   @include font-oswald(16px, 1);
   text-transform: uppercase;
   font-weight: normal;
-  color: $black-two;
+  color: $lightblack;
 }
 
 .additional-item__feature {
   @include indent-reset;
   margin-bottom: 14px;
   @include font-arial(14px, 1);
-  color: $black-three;
+  color: $lightblack;
 }
 
 .additional-item__feature dt,

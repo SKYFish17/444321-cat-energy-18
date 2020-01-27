@@ -19,10 +19,10 @@
   height: 150px;
   @include font-oswald(16px, 1.13);
   text-transform: uppercase;
-  color: $black-three;
+  color: $lightblack;
   &::placeholder {
     @include font-oswald(16px, 1.13);
     text-transform: uppercase;
-    color: $black-three;
+    color: $lightblack;
   }
 }

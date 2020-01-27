@@ -1,6 +1,7 @@
 .product {
   padding-top: 25px;
   padding-bottom: 25px;
+
   &--show-all {
     padding-top: 27px;
   }
@@ -10,6 +11,7 @@
   margin: 0;
   margin-bottom: 18px;
   width: 90px;
+
   @include font-oswald(16px, 1.25);
   font-weight: normal;
   text-transform: uppercase;
@@ -37,6 +39,7 @@
 .product--show-all .product__desc {
   display: block;
   margin-bottom: 22px;
+
   @include font-arial(12px, 1.33);
   text-align: center;
 }

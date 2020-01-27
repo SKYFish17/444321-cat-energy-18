@@ -15,9 +15,11 @@
 .info-base__age {
   box-sizing: border-box;
   padding: 15px 16px 15px 16px;
+
   @include font-oswald(16px, 1.13);
   text-transform: uppercase;
   color: $lightblack;
+
   &::placeholder {
     @include font-oswald(16px, 1.13);
     text-transform: uppercase;

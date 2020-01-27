@@ -17,6 +17,7 @@
 .effect__item {
   padding: 30px 34px 19px 21px;
   background-color: $grey;
+
   &:first-child {
     margin-bottom: 20px;
   }
@@ -27,6 +28,7 @@
   margin-bottom: 30px;
   padding-left: 71px;
   padding-right: 16px;
+
   @include font-oswald(24px, 1.54);
   font-weight: normal;
   text-transform: uppercase;
@@ -36,6 +38,7 @@
 .effect__desc {
   margin: 0;
   margin-bottom: 42px;
+
   @include font-arial();
 }
 

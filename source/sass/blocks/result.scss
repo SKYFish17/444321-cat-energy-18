@@ -7,6 +7,7 @@
 
 .result__header {
   display: block;
+
   @include font-arial(12px, 1);
   text-align: center;
   color: $lightblack;
@@ -14,6 +15,7 @@
 
 .result__value {
   display: block;
+
   @include font-oswald(24px, 1);
   text-align: center;
   text-transform: uppercase;

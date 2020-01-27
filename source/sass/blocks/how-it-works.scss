@@ -12,6 +12,7 @@
 .how-it-works__title {
   margin: 0;
   margin-bottom: 30px;
+
   @include font-oswald(36px, 1.67);
   font-weight: normal;
   color: $black;
@@ -25,6 +26,7 @@
 .how-it-works__item {
   padding-left: 80px;
   margin-bottom: 27px;
+
   &:last-child {
     margin-bottom: 0;
   }

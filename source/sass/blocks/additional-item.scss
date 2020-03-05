@@ -1,0 +1,31 @@
+.additional-item {
+  padding-top: 14px;
+  padding-bottom: 17px;
+}
+
+.additional-item__title {
+  margin-top: 16px;
+  margin-bottom: 15px;
+
+  @include font-oswald(16px, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  color: $lightblack;
+}
+
+.additional-item__feature {
+  @include indent-reset;
+  margin-bottom: 14px;
+
+  @include font-arial(14px, 1);
+  color: $lightblack;
+}
+
+.additional-item__feature dt,
+.additional-item__feature dd {
+  @include indent-reset;
+}
+
+.additional-item__feature dd {
+  text-align: right;
+}

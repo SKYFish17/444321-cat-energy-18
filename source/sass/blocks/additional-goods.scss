@@ -1,0 +1,21 @@
+.additional-goods {
+  padding-top: 31px;
+  //временно
+  outline: 2px dashed rgb(0, 238, 255);
+  //временно
+}
+
+.additional-goods__title {
+  margin: 0;
+  margin-bottom: 31px;
+
+  @include font-oswald(24px, 1);
+  font-weight: normal;
+  color: $black;
+}
+
+.additional-goods__list {
+  list-style: none;
+
+  @include indent-reset;
+}

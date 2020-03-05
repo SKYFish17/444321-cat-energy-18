@@ -1,0 +1,15 @@
+.button {
+  display: block;
+  padding: 13px 53px 12px 55px;
+  box-sizing: border-box;
+
+  @include font-oswald(16px, 1.25);
+  text-transform: uppercase;
+  border: none;
+  color: $white;
+}
+
+.button--show-all {
+  color: $lightblack;
+  background-color: $grey;
+}

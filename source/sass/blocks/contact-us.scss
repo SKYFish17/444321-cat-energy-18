@@ -1,0 +1,33 @@
+.contact-us {
+  // временно
+  outline: 2px dashed forestgreen;
+  outline-offset: -2px;
+  // временно
+}
+
+.contact-us__wrapper {
+  padding-top: 31px;
+  padding-right: 20px;
+  padding-bottom: 26px;
+  padding-left: 20px;
+}
+
+.contact-us__map {
+  background-image: url("../../img/bg-map-mobile@1x.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-color: #fdf7ef;
+}
+
+.contact-us__invite {
+  @include font-oswald(16px, 1.25);
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.contact-us__address {
+  @include font-arial(14px, 1.43);
+  text-align: left;
+}

@@ -1,0 +1,50 @@
+.effect {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 18px;
+  // временно
+  min-height: 552px;
+  outline: 2px dashed lime;
+  outline-offset: -2px;
+  // временно
+}
+
+.effect__list {
+  @include indent-reset;
+  list-style: none;
+}
+
+.effect__item {
+  padding: 30px 34px 19px 21px;
+  background-color: $grey;
+
+  &:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+.effect__title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-left: 71px;
+  padding-right: 16px;
+
+  @include font-oswald(24px, 1.54);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.effect__desc {
+  margin: 0;
+  margin-bottom: 42px;
+
+  @include font-arial();
+}
+
+
+.effect__link {
+  @include font-oswald(16px, 1);
+  text-transform: uppercase;
+  color: $black;
+}

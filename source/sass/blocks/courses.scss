@@ -1,0 +1,31 @@
+.courses {
+  //временно
+  outline: 2px dashed rgb(255, 0, 242);
+  //временно
+  padding-top: 21px;
+  padding-bottom: 22px;
+  margin-bottom: 31px;
+}
+
+.courses__list {
+  @include indent-reset;
+  list-style: none;
+}
+
+.courses__item label {
+  @include font-oswald(16px, 1.25);
+  text-transform: uppercase;
+  color: $lightblack;
+}
+
+.courses__item {
+  margin-bottom: 13px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.courses__radio {
+  margin-right: 16px;
+}

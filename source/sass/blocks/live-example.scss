@@ -1,0 +1,36 @@
+.live-example {
+  padding: 18px 20px 0 20px;
+  background-color: $grey;
+  // временно
+  min-height: 685px;
+  outline: 2px dashed darkviolet;
+  outline-offset: -2px;
+  // временно
+}
+
+.live-example__title {
+  margin: 0;
+  margin-bottom: 23px;
+
+  @include font-oswald(36px, 1.67);
+  font-weight: normal;
+  color: $black;
+}
+
+.live-example__text {
+  margin-bottom: 44px;
+}
+
+.live-example__desc {
+  @include font-arial();
+  @include indent-reset;
+  margin-bottom: 27px;
+  padding-right: 5px;
+}
+
+.live-example__price {
+  @include font-oswald(14px, 1.43);
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}

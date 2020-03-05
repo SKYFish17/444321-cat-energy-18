@@ -1,0 +1,25 @@
+.catalog {
+  //временно
+  min-height: 2742px;
+  //временно
+  padding: 16px 20px 35px 20px;
+}
+
+.catalog__title {
+  margin-bottom: 35px;
+
+  @include font-oswald(36px, 1.67);
+  font-weight: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: $black;
+}
+
+.catalog__list {
+  list-style: none;
+
+  @include indent-reset;
+  //временно
+  outline: 2px dashed rgb(255, 0, 200);
+  //временно
+}

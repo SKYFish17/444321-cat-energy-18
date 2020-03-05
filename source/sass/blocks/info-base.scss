@@ -1,0 +1,42 @@
+.info-base {
+  @include indent-reset;
+  list-style: none;
+}
+
+.info-base__item label {
+  @include font-oswald(16px, 1.13);
+  text-transform: uppercase;
+  color: $lightblack;
+}
+
+/*Если у полей одинаковые стили, имеет смысл задать одинаковый класс или сделать миксин вместо этого списка. Проработать после поиска названий миксинов*/
+.info-base__name,
+.info-base__weight,
+.info-base__age {
+  box-sizing: border-box;
+  padding: 15px 16px 15px 16px;
+
+  @include font-oswald(16px, 1.13);
+  text-transform: uppercase;
+  color: $lightblack;
+
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    text-transform: uppercase;
+    color: $lightblack;
+  }
+}
+
+.info-base__name {
+  width: 229px;
+  margin-bottom: 14px;
+}
+
+.info-base__weight {
+  width: 204px;
+  margin-bottom: 14px;
+}
+
+.info-base__age {
+  width: 172px;
+}

@@ -1,0 +1,36 @@
+.info-owner {
+  @include indent-reset;
+  list-style: none;
+}
+
+.info-owner__item label {
+  @include font-oswald(16px, 1.13);
+  text-transform: uppercase;
+  color: $lightblack;
+}
+
+.info-owner__email,
+.info-owner__phone {
+  box-sizing: border-box;
+  padding: 15px 16px 14px 16px;
+}
+
+.info-owner__email {
+  width: 219px;
+  margin-bottom: 14px;
+
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    text-transform: uppercase;
+    color: $lightblack;
+  }
+}
+
+.info-owner__phone {
+  width: 204px;
+
+  &::placeholder {
+    @include font-oswald(16px, 1.13);
+    color: $lightblack;
+  }
+}

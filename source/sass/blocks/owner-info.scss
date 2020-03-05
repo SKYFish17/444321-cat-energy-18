@@ -1,0 +1,16 @@
+.owner-info {
+  //временно
+  outline: 2px dashed rgb(60, 255, 0);
+  //временно
+  @include indent-reset;
+  margin-bottom: 31px;
+}
+
+.owner-info__title {
+  margin: 0;
+  margin-bottom: 30px;
+
+  @include font-oswald(24px, 1);
+  font-weight: normal;
+  color: $black;
+}

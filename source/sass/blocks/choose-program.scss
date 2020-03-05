@@ -1,0 +1,20 @@
+.choose-program {
+  padding: 16px 20px 34px 20px;
+}
+
+.choose-program__title {
+  margin-bottom: 24px;
+
+  @include font-oswald(36px, 1.67);
+  font-weight: normal;
+  color: $black;
+}
+
+.choose-program__subtitle {
+  margin-bottom: 39px;
+  width: 250px;
+
+  @include font-oswald(14px);
+  text-transform: uppercase;
+  color: $black;
+}
